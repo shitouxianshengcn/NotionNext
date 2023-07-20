@@ -230,7 +230,7 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>更多推荐</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://bu.dusays.com/2023/03/12/640dcd3a1b146.png') no-repeat center /cover" }}></div>
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://rockoss-1309912377.cos.ap-beijing.myqcloud.com/picgo/sea%28%E9%AB%98%E5%88%86%E8%BE%A8%E7%8E%87%29.webp?q-sign-algorithm=sha1&q-ak=AKIDqVTxW5OWTJyPemjcRMLAl7J1WoulZPDs&q-sign-time=1685532859;9000000000&q-key-time=1685532859;9000000000&q-header-list=host&q-url-param-list=&q-signature=a0ae923bd9a8d75362618c473af31fc77fdcebf6') no-repeat center /cover" }}></div>
         </div>
     </div>
 }
